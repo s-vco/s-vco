@@ -7,13 +7,13 @@ flickr30k/
 finecops-ref/
 wandb/
 checkpoints/
-# eval_vlm/playground/data/eval/halbench/RLHF-V/images/mmhal/
-# eval_vlm/playground/data/eval/mm-vet/images/
-# eval_vlm/playground/data/eval/llava-bench-in-the-wild/images/
-# eval_vlm/playground/data/eval/cvbench/img/
-# eval_vlm/playground/data/eval/realworldqa/images/
-# eval_vlm/playground/data/eval/MMVP/MMVP\ Images/
-# eval_vlm/playground/data/eval/textvqa/train_images/
-# eval_vlm/playground/data/eval/scienceqa/images/
+eval_vlm/playground/data/eval/halbench/RLHF-V/images/mmhal/
+eval_vlm/playground/data/eval/mm-vet/images/
+eval_vlm/playground/data/eval/llava-bench-in-the-wild/images/
+eval_vlm/playground/data/eval/cvbench/img/
+eval_vlm/playground/data/eval/realworldqa/images/
+eval_vlm/playground/data/eval/MMVP/MMVP\ Images/
+eval_vlm/playground/data/eval/textvqa/train_images/
+eval_vlm/playground/data/eval/scienceqa/images/
 LOG_TRAIN/
 LOG_EVAL/

@@ -114,5 +114,13 @@ Our evaluation scripts build on repositories<sup>[6](https://github.com/haotian-
 ## CITATION
 
 ```
-
+@misc{wu2025symmetricalvisualcontrastiveoptimization,
+      title={Symmetrical Visual Contrastive Optimization: Aligning Vision-Language Models with Minimal Contrastive Images}, 
+      author={Shengguang Wu and Fan-Yun Sun and Kaiyue Wen and Nick Haber},
+      year={2025},
+      eprint={2502.13928},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2502.13928}, 
+}
 ```
