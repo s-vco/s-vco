@@ -16,7 +16,7 @@
 <a name="dataset"></a>
 ## DATASET
 
-> **MVC** is a contrastive paired image-text dataset derived from visual counterfactual data sources<sup>[4](https://github.com/HanSolo9682/CounterCurate),[5](https://github.com/liujunzhuo/FineCops-Ref)</sup>. It is automatically filtered to retain only visually challenging pairs with meaninfully distinct semantic details, and then augmented for diversified language.
+> **MVC** is a contrastive paired image-text dataset derived from visual counterfactual data sources<sup>[4](https://github.com/HanSolo9682/CounterCurate),[5](https://github.com/liujunzhuo/FineCops-Ref)</sup>. It is automatically filtered to retain only visually challenging pairs with meaningfully distinct semantic details, and then augmented for diversified language.
 
 ### DOWNLOAD DATA SOURCES
 
@@ -32,7 +32,7 @@ After running it, you will find three image folders: ``flickr30k``, ``Flickr30k-
 ### FILTERED & AUGMENTED MVC
 
 The MVC dataset used in the paper is provided as `data/mvc.json`, with image paths pointing to the folders created in the previous step. 
-This version of MVC is filtered according to [CLIP](https://huggingface.co/google/siglip-so400m-patch14-384)-similarity > 0.7 and [DINOv2](https://huggingface.co/facebook/dinov2-large)-similarity < 0.5. Language augmentation is performed by prompting GPT-4o in two stages, as described in [Appendix C of the paper]().
+This version of MVC is filtered according to [CLIP](https://huggingface.co/google/siglip-so400m-patch14-384)-similarity > 0.7 and [DINOv2](https://huggingface.co/facebook/dinov2-large)-similarity < 0.5. Language augmentation is performed by prompting GPT-4o in two stages, as described in [Appendix C of the paper](https://arxiv.org/pdf/2502.13928).
 
 To divide the dataset into training and validation sets, use the following command:
 
@@ -100,7 +100,7 @@ We provide a script to evaluate a finetuned checkpoint (*e.g.*, based on [LLaVA-
 ```bash
 bash eval_all.sh --model_base=llava-hf/llava-interleave-qwen-7b-hf \
                  --run_name={EXPERIMENT_NAME_FOR_LOGGING} \
-                 --ckpt_path={SAVED_CKPT_ABS_PATH} \
+                 --ckpt_path={SAVED_CKPT_ABSOLUTE_PATH} \
                  --openai_key={OPENAI_KEY} \
                  --device=0
 ```

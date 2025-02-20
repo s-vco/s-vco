@@ -29,7 +29,7 @@ BF16=False
 TF32=True  # in case of occasional FP32 operations
 
 DS_STAGE=zero3  # deepspeed stage "zero3"
-USE_FLASH_ATTN=False  # flash_attn enabled
+USE_FLASH_ATTN=True  # flash_attn enabled
 
 # train_set & validataion_set path
 DATASET_PATH=./data/mvc_train.json
