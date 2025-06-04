@@ -12,6 +12,11 @@
 <img src="assets/method_compare.png" width=100% alt="method_compare">
 </p>
 
+<a name="updates"></a>
+## UPDATES
+* 🖇️ [2025-06-02] Arxiv v2 is out.
+* 🎉 [2025-05-15] Accepted to **ACL 2025 Main Conference**.
+
 
 <a name="dataset"></a>
 ## DATASET
